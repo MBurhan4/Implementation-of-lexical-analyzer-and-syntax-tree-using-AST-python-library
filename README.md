@@ -129,6 +129,27 @@ create_ast(source_code)
 
 ![module 2 output](https://user-images.githubusercontent.com/92621862/210150166-075bd580-8f39-4cf1-97d5-14791140acc1.PNG)
 
+# Implementation of syntax tree using AST python library; 
+
+import ast   
+
+   
+
+expression = '10 * 2'   
+
+code = ast.parse(expression, mode='eval')   
+
+   
+
+print(eval(compile(code, '', mode='eval')))   
+
+print(ast.dump(code))\ 
+
+# Output; 
+
+![33](https://user-images.githubusercontent.com/92621862/210150585-f07e03b5-bc46-43d7-af5f-2144821d6bee.PNG)
+
+
 # Another code; 
 
 class SyntaxTreeNode: 
