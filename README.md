@@ -59,6 +59,8 @@ def lex(input_string):
 
 print(lex("a + (b*c)")) 
 
+# Output;
+
  ![module 1 output](https://user-images.githubusercontent.com/92621862/210150139-47f14771-d639-47ba-a35a-cb455abef9e3.PNG)
  
 # Module 2; 
@@ -122,6 +124,8 @@ def add(x, y):
  
 
 create_ast(source_code) 
+
+# Output;
 
 ![module 2 output](https://user-images.githubusercontent.com/92621862/210150166-075bd580-8f39-4cf1-97d5-14791140acc1.PNG)
 
