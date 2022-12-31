@@ -1,10 +1,10 @@
 # Implementation-of-lexical-analyzer-and-syntax-tree-using-AST-python-library
 # MODULE 1; 
 
-# Implementation of lexical analyzer
-# Tokenization of expression (expression can be i.e a + (b*c) or 3+ (5*2) digits, alphabets, characters ) 
-# Building regex for the expression 
-# Output tags/ tokens of the expression (i.e. ['a', '+', '(', 'b', '*', 'c', ')'] ). 
+Implementation of lexical analyzer
+Tokenization of expression (expression can be i.e a + (b*c) or 3+ (5*2) digits, alphabets, characters ) 
+Building regex for the expression 
+ Output tags/ tokens of the expression (i.e. ['a', '+', '(', 'b', '*', 'c', ')'] ). 
 
 # Solution and implementation; 
 
